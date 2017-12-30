@@ -6,11 +6,13 @@
    <style>
        body 
        {
-           background: #1b243d; }
+           background: url(images/panda1.jpg);
+           background-size: cover;}
     a   { 
-        color: #ffaaa6;
+        color:azure;
         font-size: 60px;
         font-family: Royana;
+       text-align: center;
        }
        @font-face {
            font-family: Royana;
@@ -24,19 +26,33 @@
             src: url(fonts/Forum.ttf);
                
        } 
-       p {
+       .error    {
+               
            font-family: Forum;
-           font-size: 100px;
-           color: #FF0000;
+           color:darkred;   
            text-align: center;
+           line-height: 0.3em;
+       }
+       p {
+           font-size: 100px; 
+       }
+       p2 {
+           font-size: 45px;
+           
+       }
+       
+       
         
        }
     </style>
 </head>
 <body>
 <div>
-    <a >Сайт находится в стадии разработки! И вообще, иди делай уроки, а не сиди в <a href="https://momunov.github.io/imran/">ВК!!!</a> </a>
-    <p>                 Error 404 (нет)<br></p>
+    <a >Сайт находится в стадии разработки! И вообще, иди делай уроки, а не сиди в <a href="https://momunov.github.io/imran/">ВК!!!</a> </a> 
+    <div class="error">
+    <p>                 Error 404 (нет)</p>
+    <p2>File not found </p2>
+    </div>
     
  </div>
     </body>
